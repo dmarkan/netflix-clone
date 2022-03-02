@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: black;
+    user-select: none;
+}
+
+.main {
+    margin: 0 1.7rem;
+}
+
+.logo {
+    width: 5.5rem;
+    height: 1.5rem;
+}
+
+.navbar-nav {
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.search-icon {
+    height: 1.5rem;
+}
+
+.input-slide {
+    display: none;
+    border-color: #fff;
+    color: #fff;
+    background-color: #000;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.browse {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.arrow-down {
+    height: 0.5rem;
+}
+
+@media (orientation:portrait) {
+    #search-form {
+        display: none !important;
+    }
+}
