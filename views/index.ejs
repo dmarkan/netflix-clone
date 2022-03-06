@@ -22,7 +22,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div id="browse" class="browse">
             <p>Browse</p>
-            <img class="arrow-down" src="images/arrow-down.png" alt="">
+            <img class="arrow-down" src="images/arrow-down.png" alt="arrow-down">
             </div>
         </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,12 +43,27 @@
                 <a class="nav-link" href="#">My List</a>
               </li>
             </ul>
-          </div>
-          <form id="search-form" class="d-flex">
-            <input id="input-slide" class="input-slide" class="form-control me-2" type="search" placeholder="Titles, people, genres" aria-label="Search">
-            <img id="search-icon" class="search-icon" src="images/search-icon.png" alt="search-icon">
-        </form>
-        </div>
+          </div>      
+      </div>
+      <div class="nav-icons d-flex justify-content-between">
+        <form id="search-form" class="d-flex">
+          <input id="input-slide" class="input-slide" class="form-control me-2" type="search" placeholder="Titles, people, genres" aria-label="Search">
+          <img id="search-icon" class="navbar-icon" src="images/search-icon.png" alt="search-icon">
+      </form>
+      <img id="search-icon" class="navbar-icon" src="images/notification-icon.png" alt="notification-icon">
+      <div class="dropdown">
+        <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+         <img class="navbar-avatar-icon" src="images/avatar.png" alt="avatar">
+        </a>
+        <ul class="dropdown-menu bg-transparent">
+          <li><a class="dropdown-item" href="#">User</a></li>
+          <li><a class="dropdown-item" href="#">Manage Profiles</a></li>
+          <li><a class="dropdown-item" href="#">Account</a></li>
+          <li><a class="dropdown-item" href="#">Help Center</a></li>
+          <li><a class="dropdown-item" href="#">Sign out of Netflix</a></li>
+        </ul>
+      </div>
+      </div>
       </nav>
     </div>
     <script src="js/main.js"></script>

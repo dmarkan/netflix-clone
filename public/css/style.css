@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    margin: 0 1.7rem;
+    margin: 0.5rem 3rem;
 }
 
 .logo {
@@ -22,10 +22,16 @@ body {
 .navbar-nav {
     margin-left: 1.5rem;
     font-size: 0.9rem;
+    margin: 0;
 }
 
-.search-icon {
+.navbar-icon {
     height: 1.5rem;
+}
+
+.navbar-avatar-icon {
+    height: 1.8rem;
+    border-radius: 10%;
 }
 
 .input-slide {
@@ -33,10 +39,6 @@ body {
     border-color: #fff;
     color: #fff;
     background-color: #000;
-}
-
-.navbar-nav {
-    margin: 0;
 }
 
 .browse {
@@ -52,8 +54,20 @@ body {
     height: 0.5rem;
 }
 
-@media (orientation:portrait) {
-    #search-form {
-        display: none !important;
-    }
+.nav-icons {
+    width: 12vw;
+    margin-right: 10vw;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
