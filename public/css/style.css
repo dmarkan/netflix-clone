@@ -10,7 +10,7 @@ body {
     user-select: none;
 }
 
-.main {
+header {
     margin: 0.5rem 3rem;
 }
 
@@ -27,11 +27,13 @@ body {
 
 .navbar-icon {
     height: 1.5rem;
+    cursor: pointer;
 }
 
 .navbar-avatar-icon {
     height: 1.8rem;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .input-slide {
@@ -55,12 +57,13 @@ body {
 }
 
 .nav-icons {
-    width: 12vw;
-    margin-right: 10vw;
+    width: 10rem;
+    margin-right: 5rem;
 }
 
 .dropdown-item {
     color: #fff;
+    background-color: #000;
 }
 
 .dropdown-item:hover {
@@ -70,4 +73,37 @@ body {
 a {
     text-decoration: none;
     color: #fff;
+}
+
+.background-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.main-heading {
+    margin-top: 17rem;
+    margin-left: 3rem;
+}
+
+.heading-img {
+    height: 7.5rem;
+    width: 20rem;
+}
+
+.main-buttons {
+    display: block;
+    margin-top: 2rem;
+    width: 20rem;
+}
+
+.active {
+    width: 30%;
+}
+
+.info {
+    background-color: rgba(109,109,110,0.7);
+    width: 40%;
 }
