@@ -121,13 +121,14 @@ a {
 
 .trailer {
     position: absolute;
-    top: 37%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 iframe {
-    border-radius: 1.5%;
+    border-top-left-radius: 1.5%;
+    border-top-right-radius: 1.5%;
     height: 30rem;
     width: 55rem;
 }
@@ -147,4 +148,47 @@ iframe {
     background-color: rgba(51,51,51,.6);
     cursor: pointer;
     margin-left: 0.5rem;
+}
+
+.trailer-text {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #141414;
+    margin-top: -0.5rem;
+    width: 55rem;
+    border-bottom-left-radius: 1.5%;
+    border-bottom-right-radius: 1.5%;
+    padding: 1rem;
+}
+
+.first-div {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.sypnosis {
+    width: 70%;
+}
+
+.cast {
+    font-size: 0.8rem;
+}
+
+.green {
+    color: #46d369;
+}
+
+.sixteen, .hd {
+    border: solid 0.1rem #fff;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.hd {
+    font-size: 0.6rem;
+    padding: 0 0.3rem;
+    margin:0.3rem 0;
+    height: 1rem;
 }
