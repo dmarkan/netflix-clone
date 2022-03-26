@@ -222,3 +222,21 @@ iframe {
 .grey {
     color: #777;
 }
+
+.sliders {
+    background-color: #141414;
+    margin-top: 5rem;
+}
+
+.carousel-item {
+    display: flex !important;
+    justify-content: space-between;
+    height: 8rem;
+    width: 100%;
+}
+
+.carousel-item img {
+   width: 16%;
+   border-radius: 1.5%;
+}
+
