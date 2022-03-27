@@ -224,8 +224,13 @@ iframe {
 }
 
 .sliders {
-    background-color: #141414;
     margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+h6 {
+    color: #e5e5e5;
+    font-weight: 700;
 }
 
 .carousel-item {
@@ -239,4 +244,9 @@ iframe {
    width: 16%;
    border-radius: 1.5%;
 }
+
+.carousel {
+    margin-top: 3rem;
+}
+
 

@@ -19,4 +19,24 @@ $('#search-icon').click(function() {
     $('#prev-item').animate({'opacity': 0}, 400);
     $('#next-item').animate({'opacity': 1}, 400);
   })
+
+  $('#next2').click(function() {
+    $('#next-item2').animate({'opacity': 0}, 400);
+    $('#prev-item2').animate({'opacity': 1}, 400);
+  })
+
+  $('#prev2').click(function() {
+    $('#prev-item2').animate({'opacity': 0}, 400);
+    $('#next-item2').animate({'opacity': 1}, 400);
+  })
+
+  $('#next3').click(function() {
+    $('#next-item3').animate({'opacity': 0}, 400);
+    $('#prev-item3').animate({'opacity': 1}, 400);
+  })
+
+  $('#prev3').click(function() {
+    $('#prev-item3').animate({'opacity': 0}, 400);
+    $('#next-item3').animate({'opacity': 1}, 400);
+  })
   
