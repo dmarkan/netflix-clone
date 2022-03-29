@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #141414;
     user-select: none;
 }
 
@@ -243,10 +243,60 @@ h6 {
 .carousel-item img {
    width: 16%;
    border-radius: 1.5%;
+   cursor: pointer;
 }
 
 .carousel {
     margin-top: 3rem;
 }
 
+.no-background {
+    background-color: transparent;
+}
+
+.social {
+    color: #fff;
+    display: flex;
+}
+
+.social div {
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+table {
+    color: grey;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+td {
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+}
+
+td:hover {
+    text-decoration: underline;
+}
+
+.service {
+    color: grey;
+    border: solid 0.1rem grey;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+}
+
+.service:hover {
+    color: #fff;
+}
+
+.no-hover {
+    cursor: default;
+}
+
+.no-hover:hover {
+    text-decoration: none;
+}
 
